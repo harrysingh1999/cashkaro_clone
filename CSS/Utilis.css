@@ -1,0 +1,23 @@
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+.p-1 {
+  padding: 7px 0px 7px 0px;
+}
+.sub-container {
+  padding: 20px 0px 20px 0px;
+  flex-grow: 0.1;
+}
+.list-style {
+  list-style: none;
+}
+.a-items {
+  color: white;
+  text-decoration: none;
+  padding-left: 0px;
+}

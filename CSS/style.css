@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Mukta:wght@300&family=Open+Sans:wght@300&family=Roboto:wght@100;300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2f3c97;
+  height: 75px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navleft {
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  height: 75px;
+}
+
+.search input {
+  width: 445px;
+  height: 46px;
+  border-radius: 5px;
+  margin: 0px auto 0px 35px;
+  padding: 0px 0px 0px 21px;
+  font-family: "Roboto", sans-serif;
+}
+
+.user-profile {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  display: inline;
+  color: white;
+  list-style: none;
+  padding: 0px 8px;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 90vw;
+  margin: auto;
+}
+
+.slider {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.card {
+  margin: 4px 5px;
+}
+
+h2 {
+  margin: 12px 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.top-categories {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.catitem {
+  margin: 0px 12px 0px 0px;
+}
+
+.catitem img {
+  width: 253px;
+  height: 165px;
+}
+
+.cashback {
+  display: flex;
+  overflow-x: scroll;
+  margin: 20px 0px 0px 0px;
+}
+
+.cashitem {
+  margin: 0px 18px 0px 0px;
+}
+
+.sections {
+  margin: 30px auto;
+}
+
+.bottom {
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom li a {
+  font-size: 11.5px;
+}
+
+.copyright {
+  background-color: #292929;
+}
+
+.bottom h5 {
+  padding-left: 0px;
+  margin: 10px 0px;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+}
+
+.partners {
+  display: flex;
+  align-items: center;
+  /* list-style: inside
+    url(https://lh3.googleusercontent.com/6foONq1Uqq2z-jRIXf2WNnW4NJk7A0C9z0yoN7Aw5WIT66OjgKKMTQYECriBC52qkVZSVQHMgFKan5E8ChZKDclsKySLOgqoUXbm4o1vTw); */
+}
+
+.download img {
+  margin: 0px 0px 10px 0px;
+  width: 120px;
+}
+
+footer {
+  color: white;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.copyright p {
+  padding: 20px 0px;
+  font-size: 14px;
+}
